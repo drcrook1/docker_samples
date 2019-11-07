@@ -1,0 +1,8 @@
+FROM mongo
+
+COPY username.txt /run/secrets/username.txt
+COPY password.txt /run/secrets/password.txt
+
+ENV MONGO_INITDB_ROOT_USERNAME_FILE=/run/secrets/username.txt
+ENV MONGO_INITDB_ROOT_PASSWORD_FILE=/run/secrets/password.txt
+
