@@ -4,7 +4,7 @@ az container create `
     --resource-group YOUR_RG `
     --location eastus `
     --name YOUR_ACI_NAME `
-    --image YOUR_ACR_NAME.azurecr.io/YOUR_IMAGE `
+    --image YOUR_ACR_NAME.azurecr.io/YOUR_PUSHED_IMAGE `
     --dns-name-label YOUR_DNS_NAME `
     --os-type Linux `
     --ports 27017 `

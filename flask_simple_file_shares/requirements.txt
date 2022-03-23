@@ -1,0 +1,14 @@
+Flask
+markupsafe==2.0.1
+Flask_RESTful
+Flask_Script
+Werkzeug==0.16.1
+WTForms
+Flask-JSGlue
+flask-security
+requests
+gunicorn
+jsons
+simplejson
+email_validator
+pyopenssl
